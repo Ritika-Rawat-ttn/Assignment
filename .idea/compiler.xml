@@ -6,10 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="child-project-1" />
-        <module name="child-project-2" />
-        <module name="child-project-3" />
+        <module name="Data" />
+        <module name="Businesslogic" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="child-project-1" target="15" />
+      <module name="child-project-2" target="15" />
+      <module name="child-project-3" target="15" />
+      <module name="ConsoleApp" target="15" />
+      <module name="DesktopApp" target="15" />
+      <module name="multi-module-maven" target="17" />
+      <module name="ShareLibrary" target="15" />
+    </bytecodeTargetLevel>
   </component>
 </project>
